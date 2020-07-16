@@ -32,7 +32,13 @@ Jira is the source sysetm in this configuration, so `jira_sync_config` has to be
 Here is how `jira_field_def` looked like before I added is `duplicated by` field.  All these entries were propagated automatically: this table was not configured manually.  
 ![jira_sync_config](img/flow2-jira_field_def.png "Jira Field Def")
 
-Specific to mapping of Jira's field (e.g. `duplicated by`) to Rally's `Predecessors` (don't pay attention to mismatch of duplicated to predecessor - this is just an example) an extra step is required. Attribute Type Def (`attribute_type_def`) in `ac_field_def `table has to be modified. It has to say "HiererchicalRequirement" only:  
-![jira_sync_config](img/flow2-ac_field_def-4-predecessor-attrib.png "Attribute Type Def")
+Specific to mapping of Jira's field (e.g. `duplicated by`) to Rally's `Predecessors` (don't pay attention that mapping "duplicated" to "predecessor" is strange - this is just an example) an extra step is required. Attribute Type Def (`attribute_type_def`) in `ac_field_def `table has to be modified. It has to say "HiererchicalRequirement" only:  
+![attr_type_def](img/flow2-ac_field_def-4-predecessor-attrib.png "Attribute Type Def")
+
+### Timer
+Here is Schedule tab where Timer is set to run every 10 sec (while "Active" is checked for Run Reactions v2 on Details tab).  
+![schedule_tab](img/schedule.png "Schedule Tab, Timer")
+
+
 
 
