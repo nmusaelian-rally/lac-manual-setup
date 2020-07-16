@@ -5,7 +5,7 @@
 ### `ac_system` table  
 ![ac_system](img/ac_system-J2R-S2S.png "ac_system")
 ### `jira_system` table  
-![jira_system](img/ac_system-J2R-S2S.png "jira_system")
+![jira_system](img/jira_system-J2R-S2S.png "jira_system")
 
 
 ### `cfg_obj` table  
