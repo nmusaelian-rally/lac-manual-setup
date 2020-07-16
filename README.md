@@ -3,20 +3,20 @@
 ## two flows in Jira to Rally direction
 
 ### `ac_system` table  
-![ac_system](img/ac_system-J2R-S2S.png "ac_system")
+![ac_system](img/ac_system-J2R-S2S.png "AC system")
 ### `jira_system` table  
-![jira_system](img/jira_system-J2R-S2S.png "jira_system")
+![jira_system](img/jira_system-J2R-S2S.png "JIRA system")
 
 
 ### `cfg_obj` table  
 The names of flows are arbitrary, make them descriptive, e.g.
 * Jira 2 Rally Epic 2 Feature 
 * Jira 2 Rally Story 2 Story
-![cfg_obj](img/two-flows.png "cfg_obj")
+![cfg_obj](img/two-flows.png "Cfg obj")
 
 ### insert fields
 This is how this page looks like with both left and right frame when we add entries to `Cfg Obj Fld` on the bottom right.  
-![cfg_obj_fld](img/cfg_obj-J2R-S2S.png "cfg_obj_fld")
+![cfg_obj_fld](img/cfg_obj-J2R-S2S.png "Cfg Obj Fld")
 
 This has to be done for both flows.
 ### Epic/Feature field mapping  
@@ -28,3 +28,6 @@ This has to be done for both flows.
 Jira is the source sysetm in this configuration, so `jira_sync_config` has to be configured. Here is a screenshot for configuring Story related entries:  
 
 ![jira_sync_config](img/flow2-jira_sync_cfg.png "Jira Sync Config")
+
+Here is how `jira_field_def` looked like before I added is `duplicated by` field.  All these entries were propagated automatically: this table was not configured manually.  
+![jira_sync_config](img/flow2-jira_field_def.png "Jira Field Def")
