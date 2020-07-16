@@ -15,5 +15,10 @@ The names of flows are arbitrary, make them descriptive, e.g.
 ![cfg_obj](img/two-flows.png "cfg_obj")
 
 ### insert fields
-add entries to `Cfg Obj Fld` on the bottom right.
+This is how this page looks like with both left and right frame when we add entries to `Cfg Obj Fld` on the bottom right.  
 ![cfg_obj_fld](img/cfg_obj-J2R-S2S.png "cfg_obj_fld")
+
+This has to be done for both flows:
+![cfg_obj_fld1](img/flow2-cfg_obj-1.png "Epic/Feature mapping")
+![cfg_obj_fld1](img/flow2-cfg_obj-2.png "Story/User Story mapping")
+
