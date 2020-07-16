@@ -24,3 +24,7 @@ This has to be done for both flows.
 ### Story/HierarchicalRequirement field mapping  
 ![cfg_obj_fld1](img/flow2-cfg_obj-2.png "Story/User Story mapping")
 
+### `jira_sync_config` table
+Jira is the source sysetm in this configuration, so `jira_sync_config` has to be configured. Here is a screenshot for configuring Story related entries:  
+
+![jira_sync_config](img/flow2-jira_sync_cfg.png "Jira Sync Config")
