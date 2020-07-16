@@ -13,3 +13,7 @@ The names of flows are arbitrary, make them descriptive, e.g.
 * Jira 2 Rally Epic 2 Feature 
 * Jira 2 Rally Story 2 Story
 ![cfg_obj](img/two-flows.png "cfg_obj")
+
+### insert fields
+add entries to `Cfg Obj Fld` on the bottom right.
+![cfg_obj_fld](img/cfg_obj-J2R-S2S.png "cfg_obj_fld")
