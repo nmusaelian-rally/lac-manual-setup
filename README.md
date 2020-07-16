@@ -19,8 +19,8 @@ This is how this page looks like with both left and right frame when we add entr
 ![cfg_obj_fld](img/cfg_obj-J2R-S2S.png "cfg_obj_fld")
 
 This has to be done for both flows.
-Epic/Feature field mapping  
+### Epic/Feature field mapping  
 ![cfg_obj_fld1](img/flow2-cfg_obj-1.png "Epic/Feature mapping")
-Story/HierarchicalRequirement field mapping  
+### Story/HierarchicalRequirement field mapping  
 ![cfg_obj_fld1](img/flow2-cfg_obj-2.png "Story/User Story mapping")
 
